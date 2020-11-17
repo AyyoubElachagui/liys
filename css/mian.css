@@ -1,0 +1,211 @@
+
+#sidebar-wrapper{
+    z-index:9999;
+    position: absolute;
+    width:0;
+    height:100%;
+    overflow-y:hidden;
+    background: rgba(197,220,252,0.7);
+	transition:all .5s;
+	display:flex;
+	align-items:center;
+}
+
+/* Main Content */
+#page-content-wrapper{
+    width: 100%;	
+    position: absolute;
+    padding:15px;
+	transition:all .5s;
+}
+
+#menu-toggle{
+	transition:all .3s;
+	font-size:2em;
+}
+/* Change the width of the sidebar to display it*/
+#wrapper.menuDisplayed #sidebar-wrapper{
+    width:250px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+    padding-left:250px;
+}
+.ia{
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+/* Sidebar styling */
+.sidebar-nav{
+    padding:0;
+    list-style:none; 
+	transition:all .5s;
+	width:100%;
+	text-align:center;
+}
+
+.sidebar-nav li{
+    line-height:40px;  
+	width:100%;
+	transition:all .3s;
+	padding:10px;
+}
+
+.sidebar-nav li a {
+    display:block;
+    text-decoration:none;
+    color:#13102D;
+    
+    transition:all .3s;
+}
+
+.sidebar-nav li a:hover{
+    background:#13102D;
+    color: #C5DCFC;
+}
+
+#searchBox{
+    position: absolute;
+    background-color:#13102D;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #C5DCFC;
+    width: 50%;
+    height: 30px;
+    left: 25%;
+    top: 20px;
+    text-align: center;
+}
+#user-icon{
+    position: absolute;
+    left: 95%;
+    top:20px;
+    color:#C5DCFC;
+}
+#search-icon{
+    position: absolute;
+    left: 45%;
+    top:27px;
+    color:gray;
+}
+.left-side h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 74px;
+    color: #C5DCFC;
+    margin-top: 150px;
+}
+.getStartedBtn{
+    position:absolute;
+    width: 80%;
+    top: 500px;
+    background-color:#C5DCFC;
+    font-family: 'Rubik Mono One', sans-serif;
+    color:#13102D;
+    border-radius: 25px;
+    border-color: #C5DCFC;
+}
+/*header sides
+
+*/
+
+#homeImg{
+}
+#fb-icon{
+    position: absolute;
+    top:740px;
+    left:30px;
+    background-color:#C5DCFC;
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    text-align:center;
+    padding:11px;
+}
+#tw-icon{
+    position: absolute;
+    top:790px;
+    left:30px;
+    background-color:#C5DCFC;
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    text-align:center;
+    padding:11px;
+}
+#scrollItDown{
+    color:#C5DCFC;
+    text-align: center;
+    margin-top: 8%;
+}
+/*about header*/
+.about-header ,.teacher-header,.home-header{
+    margin-top: 50px;
+}
+#aboutImg,#teacherImg{
+    width:100%;
+}
+.right-side-about h1 ,.left-side-teacher h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #C5DCFC;
+    margin-top: 50px;
+}
+.separator{
+    width: 300px;
+    height: 3px;
+    background-color:#C5DCFC;
+}
+#right-side-caption,.left-side-caption-teacher{
+    margin-top: 15px;
+    color:#C5DCFC;
+    line-height: 30px;
+}
+.tc-btn{
+    background-color:#C5DCFC;
+    font-family: 'Rubik Mono One', sans-serif;
+    color:#13102D;
+    border-radius: 25px;
+    border-color:#C5DCFC;
+}
+.loginBtn{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    color:rgb(23,123,141);
+    background: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration-style: none; 
+}
+
+
+/**************    Page registre    **************/
+.txtSingUp{
+    color:#13102d;
+    margin-left: 50%;
+    background-color:#bed4f4;
+    padding-right: 5px;
+    box-shadow: 1px 1px 10px#bed4f4;
+}
+.rightRegistre{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-color: aqua;
+}
+.leftRegistre{
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background-color: #13102D;
+}
